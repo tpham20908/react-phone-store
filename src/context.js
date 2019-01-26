@@ -148,12 +148,13 @@ class ProductProvider extends Component {
     const strQst = (subTotal * 0.09975).toFixed(2);
     const floatQst = parseFloat(strQst);
     const strTotal = (subTotal + floatGst + floatQst).toFixed(2);
+    const floatTotal = parseFloat(strTotal);
     this.setState(() => {
       return {
         cartSubTotal: subTotal,
         cartGst: strGst,
         cartQst: strQst,
-        cartTotal: strTotal
+        cartTotal: floatTotal
       }
     })
   }
