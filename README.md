@@ -1,1 +1,1 @@
-Phone store: React app with Paypal payment
+Phone store: create-react-app with react-paypal-express-checkout
