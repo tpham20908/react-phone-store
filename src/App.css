@@ -1,0 +1,66 @@
+:root {
+  --mainBlue: #2a2a72;
+  --lightBlue: #009ffd;
+  --mainWhite: #f3f3f3;
+  --mainDark: #232528;
+  --mainYellow: #ffa400;
+}
+
+body {
+  font-family: 'Oswald', sans-serif !important;
+  background-color: var(--mainWhite);
+  color: var(--mainDark);
+}
+
+.text-title {
+  font-family: 'Permanent Maker', cursive;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+
+.text-blue {
+  color: var(--mainBlue);
+}
+
+.text-bright {
+  color: var(--lightBlue);
+}
+
+.btn-black {
+  background: transparent;
+  color: var(--mainDark);
+  border: 0.01rem solid var(--mainDark);
+  border-radius: 0
+}
+
+.btn-black:hover {
+  background-color: var(--mainDark);
+  color: var(--mainWhite);
+}
+
+.cart-icon {
+  cursor: pointer;
+  font-size: 1.3rem;
+  color: var(--mainYellow);
+}
+
+/* .btn-cart {
+  color: var(--lightBlue);
+  border: 0.05rem solid var(--lightBlue);
+  border-radius: 0.2rem;
+  background-color: transparent;
+  text-transform: capitalize;
+  font-size: 1.4rem;
+  padding: 0.2rem 0.5rem;
+  cursor: pointer;
+  transition: 0.2s all ease-in-out;
+}
+
+.btn-cart:hover {
+  background-color: var(--lightBlue);
+  color: var(--mainBlue);
+}
+
+.btn-cart:focus {
+  outline: none;
+} */
